@@ -1,4 +1,4 @@
-# switui-DatePicker1
+# switui-DatePicker
 Basic
 
 ### Declaration
@@ -19,17 +19,17 @@ Basic
   
 ใช้ ...Date() สำหรับการกำหนดให้ ผู้ใช้ เลือกปฎิทินย้อนหลัง
 
-    DatePicker("Date", selection: $date, in ...Date(), displayedComponents: .date)
+    DatePicker("Date", selection: $date, in: ...Date(), displayedComponents: .date)
 
 ใช้ Date()... สำหรับการกำหนดให้ ผู้ใช้ เลือกปฏิทินไปข้างหน้า
   
-    DatePicker("Date", selection: $date, in Date()..., displayedComponents: .date)
+    DatePicker("Date", selection: $date, in: Date()..., displayedComponents: .date)
   
 displayedComponents: .date ใช้สำหรับปฏิทิน 
 
 displayedComponents: .hourAndMinute ใชกับเวลา ชม:นาที
 
-    DatePicker("Date", selection: $date, in Date...())
+    DatePicker("Date", selection: $date, in: Date()...)
 
 เรียกใช้งานทั้งปฏิทิน และ เวลา
 
